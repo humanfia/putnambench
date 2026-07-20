@@ -1,0 +1,35 @@
+Package created: 2026-07-14 UTC
+Historical run: failed-humanize-jsonl98-20260709T003743Z
+Historical result: 96/98 independently verified
+
+Humanize source snapshot:
+  original local path: /home/zijian/zhengyang-workspace/lean/humanize-axle-comparator-review
+  upstream: https://github.com/PolyArch/humanize
+  reported version: 1.16.0
+
+Experiment inputs:
+  Failed_problems.md: 67a97f0927b5ce8331077c53b68a9d71f388aaf4b176c568f40be2a5c11d47a7
+  putnam_bench.jsonl: 2b3a9c40a41b303e9bc7f60f69e3a457c7ee1e45e3e0c240a05a0054970de455
+
+Lean environment:
+  Lean: leanprover/lean4:v4.27.0
+  Mathlib: a3a10db0e9d66acbebf76c5e6a135066525ac900
+
+Checker sources:
+  Comparator: 099775bf2e6073fcb22aacd3a2809fdeac3fc84a
+  Lean4Export: 590dec59d93ab6becdf16fdd8aee5abbb99cb856
+  Landrun: 5ed4a3db3a4ad930d577215c6b9abaa19df7f99f
+
+Historical model settings:
+  model: gpt-5.5
+  reasoning effort: xhigh
+  maximum turns: 50
+  probe jobs: 4
+  main concurrency: 64
+  fallback concurrency: 16
+  worker timeout: 7200 seconds
+  reviewer timeout: 7200 seconds
+
+The customized Humanize directory did not contain Git metadata. Its complete
+source snapshot is therefore vendored and protected by MANIFEST.sha256 rather
+than represented by a local commit hash.
