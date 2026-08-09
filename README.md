@@ -1,4 +1,4 @@
-# PutnamBench Solver — 670/672 Verified
+# PutnamBench Solver — 670/672 Verified, #1 Ranking on Leaderboard
 
 **Result: 670 of the 672 PutnamBench problems solved with independently verified
 Lean 4 proofs.**
