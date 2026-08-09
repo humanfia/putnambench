@@ -13,7 +13,7 @@ Lean 4 proofs.**
 | Lean | `leanprover/lean4:v4.27.0`, Mathlib `a3a10db0` |
 | Acceptance | Lean kernel + Comparator + AXLE, all required to agree |
 
-A problem counts as solved only when the produced Lean file passes *every* gate
+This results has been verified by the putnambench team, and now ranks #1 on [the offical leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html). A problem counts as solved only when the produced Lean file passes *every* gate
 in [Verification Method](#verification-method). Candidates that fail any gate are
 retained for inspection but are never counted or labeled as proofs. The unresolved
 IDs for a given run are written to `unresolved.txt` in that run's controller
@@ -26,9 +26,7 @@ Python 3 and a network connection, nothing else.**
 
 ## Start Here: Verify Our Proofs Through The AXLE API
 
-The verified Lean files are published here:
-
-**https://huggingface.co/datasets/humanfia-lab/putnam-bench-verified-and-code/tree/main/Putnam-bench-verified**
+The verified Lean files are published on [Huggingface](https://huggingface.co/datasets/humanfia-lab/putnambench-solution). Note that upon putnambench authors' request, we do NOT open source all solutions. Instead, we provide a preview of first 12 questions for review and open source the whole solving pipeline. Feel free to eval and run if interested.
 
 The fastest independent check is the AXLE verification API. It needs **only
 Python 3 and network access** — no Lean, no Mathlib, no Comparator build, no
@@ -38,7 +36,7 @@ statement, checks it in a clean Lean 4.27.0 environment, and returns Boolean
 
 ```bash
 # 1. Get the published proofs.
-git clone https://huggingface.co/datasets/humanfia-lab/putnam-bench-verified-and-code
+git clone https://huggingface.co/datasets/humanfia-lab/putnambench-solution-preview
 
 # 2. Write the pinned benchmark statements out of the packaged JSONL.
 mkdir -p work/originals
