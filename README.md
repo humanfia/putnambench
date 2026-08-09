@@ -1,7 +1,6 @@
-# PutnamBench Solver — 670/672 Verified, #1 Ranking on Leaderboard
+# Humanfia at PutnamBench
 
-**Result: 670 of the 672 PutnamBench problems solved with independently verified
-Lean 4 proofs.**
+Result: **670 of the 672 PutnamBench problems solved** with independently **Lean 4 verified** proofs, ranking #1 on [the offical leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html).
 
 | Metric | Value |
 | --- | --- |
