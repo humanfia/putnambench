@@ -1,4 +1,4 @@
-# Humanfia at PutnamBench
+# Humanfia at PutnamBench (99.7%) Acc
 
 Result: **670 of the 672 PutnamBench problems solved** with independently **Lean 4 verified** proofs, ranking #1 on [the offical leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html).
 
