@@ -27,7 +27,7 @@ Python 3 and a network connection, nothing else.**
 
 ## Start Here: Verify Our Proofs Through The AXLE API
 
-The verified Lean files are published on [Huggingface](https://huggingface.co/datasets/humanfia-lab/putnambench-solution). Note that upon putnambench authors' request, we do NOT open source all solutions. Instead, we provide a preview of first 12 questions for review and open source the whole solving pipeline. Feel free to eval and run if interested.
+The verified Lean files are published on [Huggingface](https://huggingface.co/datasets/humanfia-lab/putnambench-solution). Note that upon putnambench authors' request, we do NOT open source all solutions. Instead, we provide [a preview of first 12 questions](https://huggingface.co/datasets/humanfia-lab/putnambench-solution-preview) for review and release the whole solving pipeline. Feel free to eval and run if interested!
 
 The fastest independent check is the AXLE verification API. It needs **only
 Python 3 and network access** — no Lean, no Mathlib, no Comparator build, no
