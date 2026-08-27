@@ -1,19 +1,19 @@
-# Humanfia at PutnamBench (99.7%) Acc
+# Humanfia at PutnamBench (100%) Acc
 
 With the power of [Humanize](https://github.com/PolyArch/humanize), we, the Humanfia team, have solved 670 of 672 problems on PutnamBench, using a fully agentic, YOLO-style approach. Every solution has been formally verified by Lean 4.
 
 | Metric | Value |
 | --- | --- |
 | Benchmark | PutnamBench, all 672 formal statements |
-| Verified proofs | **670** |
-| Unresolved | 2 |
-| Pass rate | **99.7%** |
+| Verified proofs | **672** |
+| Unresolved | 0 |
+| Pass rate | **100%** |
 | Ranking | #1  on [the offical leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html). |
 | Verified? | Yes, all passed Lean 4 |
 | Worker / reviewer model | `gpt-5.5`, reasoning effort `xhigh` |
 | Lean | `leanprover/lean4:v4.27.0`, Mathlib `a3a10db0` |
 | Acceptance | Lean kernel + Comparator + AXLE, all required to agree |
-| Cost | $44.6 |
+| Cost | $44.50 |
 
 This results has been verified by the putnambench team, and now ranks #1 on [the offical leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html). A problem counts as solved only when the produced Lean file passes *every* gate
 in [Verification Method](#verification-method). Candidates that fail any gate are
