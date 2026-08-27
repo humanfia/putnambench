@@ -1,6 +1,6 @@
 # Humanfia at PutnamBench (100%) Acc
 
-With the power of [Humanize](https://github.com/PolyArch/humanize), we, the Humanfia team, have solved 670 of 672 problems on PutnamBench, using a fully agentic, YOLO-style approach. Every solution has been formally verified by Lean 4.
+With the power of [Humanize](https://humanfia.ai/), we, the Humanfia team, have solved 670 of 672 problems on PutnamBench, using a fully agentic, YOLO-style approach. Every solution has been formally verified by Lean 4.
 
 | Metric | Value |
 | --- | --- |
