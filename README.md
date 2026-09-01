@@ -10,7 +10,7 @@ With the power of [Humanize](https://humanfia.ai/), we, the Humanfia team, have 
 | Pass rate | **100%** |
 | Ranking | #1  on [the offical leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html). |
 | Verified? | Yes, all passed Lean 4 |
-| Worker / reviewer model | `gpt-5.5`, reasoning effort `xhigh` |
+| Worker / reviewer model | `gpt-5.6-sol`, reasoning effort `xhigh` |
 | Lean | `leanprover/lean4:v4.27.0`, Mathlib `a3a10db0` |
 | Acceptance | Lean kernel + Comparator + AXLE, all required to agree |
 | Cost | $44.50 |
