@@ -22,7 +22,7 @@ agentic, YOLO-style approach.
 | Worker / reviewer model | `gpt-5.6-sol`, reasoning effort `xhigh` |
 | Lean | `leanprover/lean4:v4.27.0`, Mathlib `a3a10db0` |
 | Acceptance | Lean kernel + Comparator + AXLE, all required to agree |
-| Cost | $44.50 |
+| Cost | $44.50 / problem |
 
 This result has been verified by the PutnamBench team and shares the top score
 on the [official leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html).
