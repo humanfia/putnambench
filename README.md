@@ -1,9 +1,15 @@
-# Humanfia at PutnamBench (100%) Acc
+# Humanfia at PutnamBench: 672/672 (100%)
+
+The **Humanfia team solved and formally verified all 672/672 PutnamBench
+problems**, achieving a **100% pass rate** and a **joint #1 result** on the
+[official leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html).
+Every submitted solution passed Lean 4, Comparator, and AXLE verification.
 
 > [!NOTE]
 > This is part of RSI Effort at NVIDIA Research. [Humanize](https://github.com/humanfia/humanize2) is an open agent loop/flow framework that led by [NVIDIA Research](https://www.nvidia.com/en-us/research), [UCLA PolyArch](https://polyarch.cs.ucla.edu), and [MIT HAN Lab](https://hanlab.mit.edu). We are skying the limit with the power of agents with community members.
 
-With the power of [Humanize](https://humanfia.ai/), we, the Humanfia team, have solved 670 of 672 problems on PutnamBench, using a fully agentic, YOLO-style approach. Every solution has been formally verified by Lean 4.
+The result was produced with [Humanize](https://humanfia.ai/) using a fully
+agentic, YOLO-style approach.
 
 | Metric | Value |
 | --- | --- |
@@ -11,14 +17,16 @@ With the power of [Humanize](https://humanfia.ai/), we, the Humanfia team, have 
 | Verified proofs | **672** |
 | Unresolved | 0 |
 | Pass rate | **100%** |
-| Ranking | #1  on [the offical leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html). |
+| Ranking | Joint #1 on the [official leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html) |
 | Verified? | Yes, all passed Lean 4 |
 | Worker / reviewer model | `gpt-5.6-sol`, reasoning effort `xhigh` |
 | Lean | `leanprover/lean4:v4.27.0`, Mathlib `a3a10db0` |
 | Acceptance | Lean kernel + Comparator + AXLE, all required to agree |
 | Cost | $44.50 |
 
-This results has been verified by the putnambench team, and now ranks #1 on [the offical leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html). A problem counts as solved only when the produced Lean file passes *every* gate
+This result has been verified by the PutnamBench team and shares the top score
+on the [official leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html).
+A problem counts as solved only when the produced Lean file passes *every* gate
 in [Verification Method](#verification-method). Candidates that fail any gate are
 retained for inspection but are never counted or labeled as proofs. The unresolved
 IDs for a given run are written to `unresolved.txt` in that run's controller
