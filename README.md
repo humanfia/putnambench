@@ -1,5 +1,8 @@
 # Humanfia at PutnamBench (100%) Acc
 
+> [!NOTE]
+> This is part of RSI Effort at NVIDIA Research. [Humanize](https://github.com/humanfia/humanize2) is an open agent loop/flow framework that led by [NVIDIA Research](https://www.nvidia.com/en-us/research), [UCLA PolyArch](https://polyarch.cs.ucla.edu), and [MIT HAN Lab](https://hanlab.mit.edu). We are skying the limit with the power of agents with community members.
+
 With the power of [Humanize](https://humanfia.ai/), we, the Humanfia team, have solved 670 of 672 problems on PutnamBench, using a fully agentic, YOLO-style approach. Every solution has been formally verified by Lean 4.
 
 | Metric | Value |
